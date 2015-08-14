@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E51B7381B7E218B008A8D0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E51B7371B7E218B008A8D0F /* CoreLocation.framework */; };
 		4ED263DB1B650C3400A5A77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED263DA1B650C3400A5A77E /* AppDelegate.swift */; };
 		4ED263DD1B650C3400A5A77E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED263DC1B650C3400A5A77E /* ViewController.swift */; };
 		4ED263E01B650C3400A5A77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED263DE1B650C3400A5A77E /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E51B7371B7E218B008A8D0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4ED263D51B650C3400A5A77E /* MapApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED263D91B650C3400A5A77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED263DA1B650C3400A5A77E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E51B7381B7E218B008A8D0F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +111,7 @@
 		4ED263CC1B650C3400A5A77E = {
 			isa = PBXGroup;
 			children = (
+				4E51B7371B7E218B008A8D0F /* CoreLocation.framework */,
 				4ED263D71B650C3400A5A77E /* MapApp2 */,
 				4ED263ED1B650C3400A5A77E /* MapApp2Tests */,
 				4ED263FF1B650C4000A5A77E /* MapApp2 WatchKit Extension */,
@@ -641,6 +645,7 @@
 				4ED263F61B650C3400A5A77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED263F71B650C3400A5A77E /* Build configuration list for PBXNativeTarget "MapApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +654,7 @@
 				4ED263F91B650C3400A5A77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED264171B650C4000A5A77E /* Build configuration list for PBXNativeTarget "MapApp2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +663,7 @@
 				4ED264191B650C4000A5A77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED2641A1B650C4000A5A77E /* Build configuration list for PBXNativeTarget "MapApp2 WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +672,7 @@
 				4ED2641C1B650C4000A5A77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
