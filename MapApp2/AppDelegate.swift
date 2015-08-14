@@ -20,6 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         locationManager.requestAlwaysAuthorization()
         
+        if CLLocationManager.locationServicesEnabled() {
+            locationManager.desiredAccuracy = kCLLocationAccuracyBest
+            locationManager.startUpdatingLocation()
+            
+            let coordinate = locationManager.location.coordinate
+            println("location = \(coordinate.latitude) \(coordinate.longitude)")
+        }
+        
         return true
     }
     
