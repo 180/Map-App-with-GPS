@@ -16,6 +16,11 @@
                                 <action selector="sliderValueChanged:" destination="AgC-eL-Hgc" id="joN-4A-Fw3"/>
                             </connections>
                         </slider>
+                        <button width="1" alignment="left" title="Where I am now?" id="pkb-pp-vLV">
+                            <connections>
+                                <action selector="locationButtonTapped" destination="AgC-eL-Hgc" id="mcE-KU-6dB"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="map" destination="YwM-z1-jRy" id="Mdd-3q-Dwo"/>
